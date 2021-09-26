@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	width: 100%;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	img {
+		width: 250px;
+		height: 100px;
+		padding: 0 2rem;
+	}
+	ul {
+		list-style: none;
+		display: flex;
+	}
+	li {
+		margin: 2.5rem 1rem;
+	}
+	.nav-items {
+		text-decoration: none;
+		color: rgb(102, 101, 101);
+		padding: 1.2rem 2rem;
+	}
+	.nav-items:hover {
+		transition: all 0.5s ease-out;
+		background-color: #80ceef;
+	}
+}

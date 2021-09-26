@@ -1,0 +1,12 @@
+* {
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+@import "_nav.scss";
+@import "_section.scss";
+@import "_price.scss";
+@import "_nosotros.scss";
