@@ -31,21 +31,24 @@
 		justify-content: center;
 		height: 20vh;
 	}
-	a {
-		color: white;
-		font-weight: bold;
-		font-size: 2rem;
+	.planes-link {
+		width: 80%;
+		height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 2rem;
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		font-size: 2rem;
 		outline: none;
 		border-radius: 2em;
 		cursor: pointer;
-		width: 80%;
-		height: 100%;
+
 		background-color: #80ceef;
 	}
-	a:hover {
+	.planes-link:hover {
 		background-color: #22adee;
 	}
 }

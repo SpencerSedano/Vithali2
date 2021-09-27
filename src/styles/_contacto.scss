@@ -1,0 +1,57 @@
+.contact-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	h1 {
+		display: flex;
+		width: 100%;
+	}
+}
+.form-container {
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	form {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		padding: 3rem;
+		.input-style {
+			height: 7%;
+			padding: 1rem;
+			margin: 1rem;
+			border-radius: 10px;
+		}
+		.name {
+			width: 35%;
+		}
+		.email {
+			width: 35%;
+		}
+		.textarea-style {
+			height: 15%;
+			padding: 1rem;
+			margin: 1rem;
+
+			border-radius: 10px;
+			.submit-style {
+				width: 10%;
+				display: flex;
+
+				background-color: yellow;
+				color: black;
+			}
+		}
+	}
+}
+::placeholder {
+	color: rgb(230, 228, 228);
+	font-size: 1em;
+}
+input:focus::placeholder {
+	color: transparent;
+}
+textarea:focus::placeholder {
+	color: transparent;
+}

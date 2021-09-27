@@ -28,3 +28,55 @@ nav {
 		background-color: #80ceef;
 	}
 }
+
+// .dropdown button {
+// 	border: none;
+// 	padding: 8px 16px;
+// 	color: black;
+// 	transition: 0.3s;
+// 	cursor: pointer;
+// }
+
+.dropdown {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	background-color: violet;
+}
+.dropdown button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 40px;
+}
+
+.dropdown li {
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+	pointer-events: none;
+	margin: 0;
+	transition: 0.3s;
+	font-size: 0.2rem;
+}
+
+.dropdown:hover button {
+	background-color: #80ceef;
+	display: flex;
+}
+
+.dropdown:hover li {
+	opacity: 1;
+	pointer-events: all;
+	font-size: 1rem;
+	z-index: 1;
+}
+.dropdown-link {
+	background: aquamarine;
+	color: black;
+	text-decoration: none;
+	transition: 0.1s;
+}

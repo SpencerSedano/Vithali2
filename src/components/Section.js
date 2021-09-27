@@ -15,7 +15,7 @@ function Section() {
 				</p>
 				<h2>¡Te invitamos a conocernos!</h2>
 				<div className="button-container">
-					<Link to="/">
+					<Link className="planes-link" to="/">
 						<h2>Puedes conocer nuestros planes aquí</h2>
 					</Link>
 				</div>

@@ -36,7 +36,7 @@ function Price() {
 							dudas o consultas por Whatsapp SOLO POR 7 DIAS
 						</li>
 					</ul>
-					<div className="shop-now">
+					<div className="shop-now cart-consulta">
 						<FontAwesomeIcon className="cart" icon={faShoppingCart} />
 					</div>
 				</div>
@@ -69,10 +69,10 @@ function Price() {
 							<FontAwesomeIcon className="check" icon={faCheck} /> Asesoría para
 							dudas o consultas por Whatsapp POR TODO EL MES
 						</li>
-						<div className="shop-now">
-							<FontAwesomeIcon className="cart" icon={faShoppingCart} />
-						</div>
 					</ul>
+					<div className="shop-now cart-plan1">
+						<FontAwesomeIcon className="cart" icon={faShoppingCart} />
+					</div>
 				</div>
 				<div className="plan2">
 					<h3>PLAN 2 MESES</h3>
@@ -107,10 +107,10 @@ function Price() {
 							<FontAwesomeIcon className="check" icon={faCheck} /> Seguimiento y
 							control del paciente.
 						</li> */}
-						<div className="shop-now">
-							<FontAwesomeIcon className="cart" icon={faShoppingCart} />
-						</div>
 					</ul>
+					<div className="shop-now cart-plan2">
+						<FontAwesomeIcon className="cart" icon={faShoppingCart} />
+					</div>
 				</div>
 			</div>
 		</div>
