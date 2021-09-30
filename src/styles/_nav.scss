@@ -38,45 +38,57 @@ nav {
 // }
 
 .dropdown {
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
-	background-color: violet;
+	// background-color: violet;
 }
 .dropdown button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 300px;
-	height: 40px;
-}
-
-.dropdown li {
-	display: flex;
-	flex-direction: column;
-	opacity: 0;
-	pointer-events: none;
-	margin: 0;
-	transition: 0.3s;
-	font-size: 0.2rem;
+	position: relative;
+	bottom: 4px;
+	width: 100px;
+	height: 50px;
+	background: white;
+	border: none;
+	color: rgb(102, 101, 101);
+	font-size: 1rem;
 }
 
 .dropdown:hover button {
 	background-color: #80ceef;
-	display: flex;
 }
 
-.dropdown:hover li {
+// DON'T TOUCH BECAUSE IT BREAKS
+// IT'S THE DROPDOWN "SERVICIOS"
+
+.dropdown ol {
+	position: absolute;
+	top: 40px;
+	right: 60px;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.3s;
+	z-index: 1;
+	list-style: none;
+	width: 300px;
+	height: 500px;
+}
+
+.dropdown:hover ol {
+	visibility: visible;
 	opacity: 1;
 	pointer-events: all;
 	font-size: 1rem;
-	z-index: 1;
+	padding: 2rem;
+	// background-color: blue;
 }
 .dropdown-link {
-	background: aquamarine;
-	color: black;
+	display: flex;
+	flex-direction: column;
+	background-color: chocolate;
 	text-decoration: none;
-	transition: 0.1s;
 }

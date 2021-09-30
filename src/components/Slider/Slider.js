@@ -4,6 +4,8 @@ import BtnSlider from "./BtnSlider";
 import dataSlider from "./dataSlider";
 function Slider() {
 	const [slideIndex, setSlideIndex] = useState(1);
+	// const [pauseIndex, setPauseIndex] = useState(1);
+
 	const nextSlide = () => {
 		if (slideIndex !== dataSlider.length) {
 			setSlideIndex(slideIndex + 1);
@@ -44,6 +46,9 @@ function Slider() {
 						<img
 							src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.jpg`}
 							alt="fotos"
+							// onMouseEnter={() => {
+							// 	setPauseIndex((pauseIndex = index));
+							// }}
 						/>
 					</div>
 				);

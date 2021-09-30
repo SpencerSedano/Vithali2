@@ -24,21 +24,23 @@ const Nav = () => {
 					</li>
 					<div className="dropdown">
 						<button>Servicios</button>
-						<li>
-							<Link className="dropdown-link" to="/servicios/presencial">
-								Consulta Presencial
-							</Link>
-						</li>
-						<li>
-							<Link className="dropdown-link" to="/servicios/online">
-								Consulta Online
-							</Link>
-						</li>
-						<li>
-							<Link className="dropdown-link" to="/servicios/empresa">
-								Consulta Nutrición para Empresas
-							</Link>
-						</li>
+						<ol>
+							<li>
+								<Link className="dropdown-link" to="/servicios/presencial">
+									Consulta Presencial
+								</Link>
+							</li>
+							<li>
+								<Link className="dropdown-link" to="/servicios/online">
+									Consulta Online
+								</Link>
+							</li>
+							<li>
+								<Link className="dropdown-link" to="/servicios/empresa">
+									Consulta Nutrición para Empresas
+								</Link>
+							</li>
+						</ol>
 					</div>
 					{/* <div className="dropdown">
 						<button>Servicios</button>

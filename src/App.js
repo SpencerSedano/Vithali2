@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/app.scss";
+import "./styles/app.css";
 import Nav from "./components/Nav.js";
 import Home from "./pages/Home.js";
 import Servicios from "./pages/Servicios.js";
