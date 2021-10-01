@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "../components/Slider/Slider.js";
 import Section from "../components/Section.js";
 import Price from "../components/Price.js";
+import Footer from "../components/Footer.js";
 //Frame Animation
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
@@ -17,6 +18,7 @@ const Home = () => {
 				<Slider />
 				<Section />
 				<Price />
+				<Footer />
 			</motion.div>
 		</div>
 	);

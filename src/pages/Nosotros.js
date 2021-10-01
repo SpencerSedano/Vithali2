@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+//Footer Component
+import Footer from "../components/Footer.js";
 //Frame Animation
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
@@ -180,7 +182,7 @@ const Nosotros = () => {
 						<p>Afirman tener resultados</p>
 					</div>
 				</div>
-				<h2>ALCANCE NACIONAL</h2>
+				<h2 className="alcance-nacional">ALCANCE NACIONAL</h2>
 				<div className="estamos-aqui-container">
 					<div className="estamos-aqui">
 						<h2>Estamos aquí:</h2>
@@ -208,6 +210,7 @@ const Nosotros = () => {
 						<img src={MapaPeruano} alt="Mapa del Perú" />
 					</div>
 				</div>
+				<Footer />
 			</motion.div>
 		</div>
 	);

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-
+// Footer Component
+import Footer from "../components/Footer.js";
 const Contacto = () => {
 	const form = useRef();
 
@@ -55,6 +56,7 @@ const Contacto = () => {
 					<input classname="submit-style" type="submit" value="Enviar" />
 				</form>
 			</div>
+			<Footer />
 		</div>
 	);
 };

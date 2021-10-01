@@ -728,12 +728,60 @@ nav .nav-items:hover {
   font-size: 1.3rem;
 }
 
+.alcance-nacional {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 3rem;
+  color: #2c2b2b;
+}
+
 .estamos-aqui-container {
   width: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: blue;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.estamos-aqui-container .estamos-aqui {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  padding: 2rem;
+  border-radius: 50px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.estamos-aqui-container h2 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.estamos-aqui-container ul {
+  list-style: none;
+  font-size: 1.7rem;
+}
+
+.mapa-peruano {
+  width: 40%;
+}
+
+.mapa-peruano img {
+  width: 80%;
 }
 
 .contact-container {
@@ -856,5 +904,90 @@ textarea:focus::-ms-input-placeholder {
 
 textarea:focus::placeholder {
   color: transparent;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  background: #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .lists-links {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .lists-links ul {
+  list-style: none;
+  padding: 2rem;
+}
+
+footer .lists-links ul h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+footer .lists-links ul li {
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+footer .same-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .copyright {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .copyright img {
+  width: 200px;
+}
+
+footer .social-media {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-media img {
+  cursor: pointer;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  width: 45px;
+  height: 50px;
+  margin: 0rem 1rem 0rem 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=app.css.map */
