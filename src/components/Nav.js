@@ -1,7 +1,6 @@
 import React from "react";
 import bg from "../img/logo.png";
 import { Link } from "react-router-dom";
-import Toggle from "./Toggle.js";
 
 const Nav = () => {
 	return (
@@ -14,6 +13,11 @@ const Nav = () => {
 					<li>
 						<Link to="/" className="nav-items">
 							Inicio
+						</Link>
+					</li>
+					<li>
+						<Link to="/tienda" className="nav-items">
+							Tienda
 						</Link>
 					</li>
 
